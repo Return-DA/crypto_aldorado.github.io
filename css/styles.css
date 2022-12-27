@@ -1,0 +1,138 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #0d192b;
+    margin: 7.5% auto;
+    color: white;
+}
+
+
+#main {
+    padding: 20px 20px 30px 20px;
+    background-color: #14253d;
+    margin: 0 auto;
+    height: 530px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+#card {
+    width: 100%;
+    height: 55%;
+}
+
+#card img {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+
+#description {
+    width: 100%;
+    height: 18%;
+}
+
+#description-text h3 {
+    font-size: 18px;
+    font-family: 'Outfit';
+    font-weight: 600;
+}
+
+#description-text p {
+    font-family: 'Outfit';
+    font-weight: 300;
+    font-size: 15px;
+    color: #8bacda;
+    margin-bottom: 0;
+}
+
+#pricing {
+    align-content: center;
+    display: inline-block;
+    height: 13%;
+    width: 100%;
+}
+
+#price {
+    position: relative;
+    top: -4px;
+    text-align: left;
+    width: 50%;
+    height: 100%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+#timeleft {
+    font-family: 'Outfit';
+    color: #8bacda;
+    font-size: 15.5px;
+    opacity: 0.6;
+    font-weight: 400;
+    text-align: right;
+    width: 50%;
+    height: 100%;
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+#timeleft img {
+    position: relative;
+    top: 3px;
+    margin-right: 7px;
+}
+
+#price h3 {
+    font-size: 15px;
+    margin-top: 22px;
+    color: #00fff7;
+    font-family: 'Outfit';
+    font-weight: 700;
+    margin-left: 19px;
+}
+
+#price img {
+    position: relative;
+    top: -33px
+}
+
+#owner-credit {
+    width: 100%;
+    height: 10%;
+}
+
+#owner-credit img {
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    height: 62%;
+    width: 11.5%;
+}
+
+#owner-credit p {   
+    opacity: 0.8;
+    position: relative;
+    top: -44px;
+    left: 0px;
+    text-align: center;
+    font-family: 'Outfit';
+    font-weight: 300;
+    font-size: 16px;
+
+}
+
+#owner-credit span {
+    color: #8bacda;
+}
+
+hr {
+    color: white;
+    margin: 0 0 15px 0;
+    width: 100%;
+    opacity: 0.2;
+}
